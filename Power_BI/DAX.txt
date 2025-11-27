@@ -1,0 +1,47 @@
+-- DAX para las KPIS
+--ingresos totales-- 
+Ingresos Totales = SUM(v_AnalisisRendimiento[Ingresos])
+
+Socios Activos = 
+CALCULATE(
+    DISTINCTCOUNT(v_AnalisisRendimiento[SocioID]),
+    v_AnalisisRendimiento[EstadoSocio] = TRUE()
+)
+
+--tasa retencion--
+VAR SociosConPagosRecientes = 
+    CALCULATE(
+        DISTINCTCOUNT(v_AnalisisRendimiento[SocioID]),
+        v_AnalisisRendimiento[FechaPago] >= DATE(YEAR(TODAY()), 1, 1)
+    )
+VAR TotalSociosActivos = [Socios Activos]
+RETURN
+DIVIDE(SociosConPagosRecientes, TotalSociosActivos, 0)
+
+--tasa asistencia--
+
+Tasa Asistencia = 
+VAR TotalCompletadas = SUM(v_AnalisisRendimiento[EsCompletada])
+VAR TotalReservas = 
+    CALCULATE(
+        COUNTROWS(v_AnalisisRendimiento),
+        v_AnalisisRendimiento[ReservaID] <> BLANK()
+    )
+RETURN
+DIVIDE(TotalCompletadas, TotalReservas, 0)
+
+
+--ocupacion promedio --
+Ocupación Promedio = 
+VAR TotalReservasValidas = 
+    CALCULATE(
+        COUNTROWS(v_AnalisisRendimiento),
+        v_AnalisisRendimiento[EstadoReserva] IN {"Confirmada", "Completada"}
+    )
+VAR CapacidadTotal = 
+    CALCULATE(
+        SUM(v_AnalisisRendimiento[CapacidadMaxima]),
+        v_AnalisisRendimiento[HorarioID] <> BLANK()
+    )
+RETURN
+DIVIDE(TotalReservasValidas, CapacidadTotal, 0)
