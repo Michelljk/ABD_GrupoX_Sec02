@@ -52,5 +52,6 @@ Se ha desarrollado un dashboard interactivo en **Power BI** para visualizar y an
   
 - **📱 Dashboard Interactivo:** https://ucaedusv-my.sharepoint.com/:f:/g/personal/00111219_uca_edu_sv/IgAIRZ4v7H85ToU9iQaNtSGyAQ3LnHzjpXWEiBYYkZAcDvs?e=hmkFOj
 
+- **🗂️ Carpeta en onedrive:** https://ucaedusv-my.sharepoint.com/:f:/g/personal/00111219_uca_edu_sv/IgCW5_rSvcr7SY7EFI-qISahAXmbz-lee-_vfolanb566oY?e=xjbKhf
 ---
 
