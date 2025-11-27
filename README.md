@@ -54,13 +54,19 @@ Se ha desarrollado un dashboard interactivo en **Power BI** para visualizar y an
 
 - **🗂️ Carpeta en onedrive:** https://ucaedusv-my.sharepoint.com/:f:/g/personal/00111219_uca_edu_sv/IgCW5_rSvcr7SY7EFI-qISahAXmbz-lee-_vfolanb566oY?e=xjbKhf
 ---
+
+📝 **Autoevaluación del Equipo**
+
+-Se autoevaluo al equipo de manera real, demostrando en la tabla de porcentaje en base a la nota por haber realizado el proyecto de cátedra.
+
 | Nombre                                   | Autoevaluación (%) |
 | ---------------------------------------- | ------------------ |
-| **Violeta Lisbeth Amaya González**       | ⭐ 100%            |
-| **Diana Michell Velásquez Meléndez**     | ⭐ 100%            |
-| **Jonathan Rigoberto Martínez Menjívar** | ⚠️ 2%              |
-| **Edwin Oswaldo Guzmán Meléndez**        | ⚠️ 1%              |
-| **Mario Alfredo Tobar Ayala**            | ❌ 0%              |
+| **Violeta Lisbeth Amaya González**       | ⭐ 100% =  10      |
+| **Diana Michell Velásquez Meléndez**     | ⭐ 100% = 10       |
+| **Jonathan Rigoberto Martínez Menjívar** | ⚠️ 20%  = 2        |
+| **Edwin Oswaldo Guzmán Meléndez**        | ⚠️ 10%  = 1        |
+| **Mario Alfredo Tobar Ayala**            | ❌ 0% = 0          |
+
 
 
 📝 **Justificación de Autoevaluaciones**
