@@ -79,7 +79,7 @@ Desarrolló la dashboard en Power BI y su respectivo análisis.
 
 Editó el video final y ajustó la documentación.
 
-Aportó constantemente en el proceso y en el trabajo del equipo. 💪📊
+Aportó constantemente en el proceso, en el trabajo del equipo y fue a consultas con el catedrático. 💪📊
 
 
 ⭐ **100% – Violeta Lisbeth Amaya González**
@@ -93,6 +93,8 @@ Presentó evidencias de ejecución de los scripts.
 Participó en el video final.
 
 Aportó en la redacción y cierre de la documentación. 🔧🗂️
+
+Aportó constantemente en el proceso, en el trabajo del equipo y fue a consultas con el catedrático. 💪📊
 
 
 ⚠️ **2% – Jonathan Rigoberto Martínez Menjívar**
