@@ -28,29 +28,30 @@ BACKUP LOG GIMNASIO_BD
 TO DISK = 'C:\backups\GIMNASIO_LOG_10PM.trn'
 WITH STATS = 10;
 
+----------------------------------------------
 -- RESTAURACION 
 
--- 1? Restaurar el FULL 4 AM
+-- 1 Restaurar el FULL 4 AM
 RESTORE DATABASE GIMNASIO_BD
 FROM DISK = 'C:\backups\GIMNASIO_FULL.bak'
 WITH NORECOVERY;
 
--- 2? Restaurar el DIFERENCIAL 4 PM
+-- 2 Restaurar el DIFERENCIAL 4 PM
 RESTORE DATABASE GIMNASIO_BD
 FROM DISK = 'C:\backups\GIMNASIO_DIFERENCIAL.bak'
 WITH NORECOVERY;
 
--- 3? Restaurar LOG de 10 AM 
+-- 3 Restaurar LOG de 10 AM 
 RESTORE LOG GIMNASIO_BD
 FROM DISK = 'C:\backups\GIMNASIO_LOG_10AM.trn'
 WITH NORECOVERY;
 
--- 4? Restaurar LOG de 10 PM 
+-- 4 Restaurar LOG de 10 PM 
 RESTORE LOG GIMNASIO_BD
 FROM DISK = 'C:\backups\GIMNASIO_LOG_10PM.trn'
 WITH RECOVERY;  
 
-
+-----------------------------------------------
 --JOBS
 USE msdb;
 
