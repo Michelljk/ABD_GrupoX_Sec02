@@ -54,4 +54,48 @@ Se ha desarrollado un dashboard interactivo en **Power BI** para visualizar y an
 
 - **🗂️ Carpeta en onedrive:** https://ucaedusv-my.sharepoint.com/:f:/g/personal/00111219_uca_edu_sv/IgCW5_rSvcr7SY7EFI-qISahAXmbz-lee-_vfolanb566oY?e=xjbKhf
 ---
+| Nombre                                   | Autoevaluación (%) |
+| ---------------------------------------- | ------------------ |
+| **Violeta Lisbeth Amaya González**       | ⭐ 100%            |
+| **Diana Michell Velásquez Meléndez**     | ⭐ 100%            |
+| **Jonathan Rigoberto Martínez Menjívar** | ⚠️ 2%              |
+| **Edwin Oswaldo Guzmán Meléndez**        | ⚠️ 1%              |
+| **Mario Alfredo Tobar Ayala**            | ❌ 0%              |
 
+
+##📝 **Justificación de Autoevaluaciones**
+##⭐ **100% – Diana Michell Velásquez Meléndez**
+Desarrolló el documento del proyecto.
+Participó activamente en el video final.
+Elaboró scripts completos de base de datos, incluyendo almacenamiento, modelo relacional, logins/usuarios, seguridad, diccionario de datos y auditorías.
+Ejecutó pruebas, las documentó y corrigió errores.
+Desarrolló la dashboard en Power BI y su respectivo análisis.
+Editó el video final y ajustó la documentación.
+Aportó constantemente en el proceso y en el trabajo del equipo. 💪📊
+
+##⭐ **100% – Violeta Lisbeth Amaya González**
+Desarrolló los scripts de backups, restauración y jobs.
+Implementó índices de optimización y funciones ventana.
+Presentó evidencias de ejecución de los scripts.
+Participó en el video final.
+Aportó en la redacción y cierre de la documentación. 🔧🗂️
+
+##⚠️ **2% – Jonathan Rigoberto Martínez Menjívar**
+Envió scripts de procesamiento y almacenamiento usando OPENROWSET, ejemplos de dimensionamiento, pero sin probarlos, uso de IA en los scripts.
+Compartió ejemplos no acordes al proyecto.
+Envío de backups sin ejecución ni evidencia.
+No aportó al documento escrito ni al video.
+Realizó la dashboard en Power BI, pero con datos incompletos, sin capturas ni teoría de desarrollo.
+Presentó entregas fuera de tiempo pese a tener 5 días adicionales. 🕒
+
+##**⚠️ 1% – Edwin Oswaldo Guzmán Meléndez**
+Entregó logins generados con IA, sin incluir la creación de usuarios.
+No aportó al documento escrito ni al video.
+Realizó entrega tardía.
+Participación mínima en el desarrollo general del proyecto. ⏳
+
+##❌ **0% – Mario Alfredo Tobar Ayala**
+No realizó ninguna entrega relacionada al proyecto.
+No aportó al documento escrito ni al video.
+Solo enviaba stickers en el grupo, no revisaba los avances del documento.
+Ninguna contribución al desarrollo del proyecto. 🚫
